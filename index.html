@@ -1,19 +1,53 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Basel Ghazaly's Data Managment work</title>
-	</head>
+    <head>
+        <meta charset="utf-8">
+        <title>Data Management // MaCAD 2021</title>
+        <style>
+            body {
+                margin-top: 10;
+                margin-left: 250;
+                font-family: monospace;  
+                font-size: 1rem;
+                color: rgb(0, 0, 0);
+                background-color: rgb(180, 179, 179);
+                text-align:left;
+                
+                }
+            canvas { width: 50%; height: 100%; }
+            input[type=range] { width: 100%; }
+            #container {position: relative;}
+            #container canvas, #overlay { position: absolute;}
+            #overlay div { padding: 3px; }
 
-	<body>
-        <h1>This is the work I did for the data managment class</h1>
-        <!-- We can embed content from another with several different html elements -->
-        <!-- Here is a decent comparison -->
-        <!-- https://stackoverflow.com/a/21115112/2179399 -->
-        <h2>iframe element</h2>
-        <iframe src="https://iaac-macad-s1.github.io/lecture1/example1/" width="500" height="500"></iframe>
-        <h2>embed element</h2>
-        <embed src="../example3.2/" width="500" height="500"></embed>
-        <a href="./Assignment1/">Assignment 1</a>
-	</body>
+            
+
+            @keyframes spin {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Data Management // MACAD 2021</h1>
+        <h4>A Part of the MaCAD Program, Institute of Advanced Architecture of Catalonia, 2021 </h4>
+        <h4>By: Basel Ghazaly Lead Faculty: Luis Fragauda - Will Pearson</h4>
+        <h1> </h1>
+        <h2>01// Forest Pavilion</h2>
+        <h4>A Pavilion that allows the users to manipulate it's gometry, run environmental analysis and download their preferred result</h4>
+        <iframe src="https://macadbg.herokuapp.com/examples/forrest.pavilion/index.html" width="1400" height="800"></iframe>
+        <h2>02// Looping looper</h2>
+        <h4>A ant pipe made of loops</h4>
+        <iframe src="https://macadbg.herokuapp.com/view/Assignment.3.4.5.gh" width="1400" height="800"></iframe>
+        <h2>03// Lunar Centrifuge</h2>
+        <h4>A Lunar sports complex</h4>
+        <iframe src="https://baselghazaly.github.io/lecture2/example3/" width="1400" height="800"></iframe>
+        <h2>04// Multipipe</h2>
+        <h4>A customizable multipipe</h4>
+        <iframe src="https://baselghazaly.github.io/lecture2/example2/" width="1400" height="800"></iframe>
+        <h2>05// Biomimcry</h2>
+        <h4>A breif on biomimicry</h4>
+        <iframe src="https://baselghazaly.github.io/lecture1/example1/" width="1400" height="800"></iframe>
+        
+    </body>
 </html>
